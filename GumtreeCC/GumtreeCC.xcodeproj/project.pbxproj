@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A545F50923822D38008FC43E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A545F50823822D38008FC43E /* AppDelegate.swift */; };
+		A545F50B23822D38008FC43E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A545F50A23822D38008FC43E /* ViewController.swift */; };
+		A545F50E23822D38008FC43E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A545F50C23822D38008FC43E /* Main.storyboard */; };
+		A545F51023822D39008FC43E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A545F50F23822D39008FC43E /* Assets.xcassets */; };
+		A545F51323822D39008FC43E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A545F51123822D39008FC43E /* LaunchScreen.storyboard */; };
+		A545F51E23822D39008FC43E /* GumtreeCCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A545F51D23822D39008FC43E /* GumtreeCCTests.swift */; };
+		A545F52923822D39008FC43E /* GumtreeCCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A545F52823822D39008FC43E /* GumtreeCCUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A545F51A23822D39008FC43E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A545F4FD23822D38008FC43E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A545F50423822D38008FC43E;
+			remoteInfo = GumtreeCC;
+		};
+		A545F52523822D39008FC43E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A545F4FD23822D38008FC43E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A545F50423822D38008FC43E;
+			remoteInfo = GumtreeCC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A545F50523822D38008FC43E /* GumtreeCC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GumtreeCC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A545F50823822D38008FC43E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A545F50A23822D38008FC43E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A545F50D23822D38008FC43E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A545F50F23822D39008FC43E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A545F51223822D39008FC43E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A545F51423822D39008FC43E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A545F51923822D39008FC43E /* GumtreeCCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GumtreeCCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A545F51D23822D39008FC43E /* GumtreeCCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GumtreeCCTests.swift; sourceTree = "<group>"; };
+		A545F51F23822D39008FC43E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A545F52423822D39008FC43E /* GumtreeCCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GumtreeCCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A545F52823822D39008FC43E /* GumtreeCCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GumtreeCCUITests.swift; sourceTree = "<group>"; };
+		A545F52A23822D39008FC43E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A545F50223822D38008FC43E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A545F51623822D39008FC43E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A545F52123822D39008FC43E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A545F4FC23822D38008FC43E = {
+			isa = PBXGroup;
+			children = (
+				A545F50723822D38008FC43E /* GumtreeCC */,
+				A545F51C23822D39008FC43E /* GumtreeCCTests */,
+				A545F52723822D39008FC43E /* GumtreeCCUITests */,
+				A545F50623822D38008FC43E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A545F50623822D38008FC43E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A545F50523822D38008FC43E /* GumtreeCC.app */,
+				A545F51923822D39008FC43E /* GumtreeCCTests.xctest */,
+				A545F52423822D39008FC43E /* GumtreeCCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A545F50723822D38008FC43E /* GumtreeCC */ = {
+			isa = PBXGroup;
+			children = (
+				A545F50823822D38008FC43E /* AppDelegate.swift */,
+				A545F50A23822D38008FC43E /* ViewController.swift */,
+				A545F50C23822D38008FC43E /* Main.storyboard */,
+				A545F50F23822D39008FC43E /* Assets.xcassets */,
+				A545F51123822D39008FC43E /* LaunchScreen.storyboard */,
+				A545F51423822D39008FC43E /* Info.plist */,
+			);
+			path = GumtreeCC;
+			sourceTree = "<group>";
+		};
+		A545F51C23822D39008FC43E /* GumtreeCCTests */ = {
+			isa = PBXGroup;
+			children = (
+				A545F51D23822D39008FC43E /* GumtreeCCTests.swift */,
+				A545F51F23822D39008FC43E /* Info.plist */,
+			);
+			path = GumtreeCCTests;
+			sourceTree = "<group>";
+		};
+		A545F52723822D39008FC43E /* GumtreeCCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A545F52823822D39008FC43E /* GumtreeCCUITests.swift */,
+				A545F52A23822D39008FC43E /* Info.plist */,
+			);
+			path = GumtreeCCUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A545F50423822D38008FC43E /* GumtreeCC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A545F52D23822D39008FC43E /* Build configuration list for PBXNativeTarget "GumtreeCC" */;
+			buildPhases = (
+				A545F50123822D38008FC43E /* Sources */,
+				A545F50223822D38008FC43E /* Frameworks */,
+				A545F50323822D38008FC43E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GumtreeCC;
+			productName = GumtreeCC;
+			productReference = A545F50523822D38008FC43E /* GumtreeCC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A545F51823822D39008FC43E /* GumtreeCCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A545F53023822D39008FC43E /* Build configuration list for PBXNativeTarget "GumtreeCCTests" */;
+			buildPhases = (
+				A545F51523822D39008FC43E /* Sources */,
+				A545F51623822D39008FC43E /* Frameworks */,
+				A545F51723822D39008FC43E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A545F51B23822D39008FC43E /* PBXTargetDependency */,
+			);
+			name = GumtreeCCTests;
+			productName = GumtreeCCTests;
+			productReference = A545F51923822D39008FC43E /* GumtreeCCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A545F52323822D39008FC43E /* GumtreeCCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A545F53323822D39008FC43E /* Build configuration list for PBXNativeTarget "GumtreeCCUITests" */;
+			buildPhases = (
+				A545F52023822D39008FC43E /* Sources */,
+				A545F52123822D39008FC43E /* Frameworks */,
+				A545F52223822D39008FC43E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A545F52623822D39008FC43E /* PBXTargetDependency */,
+			);
+			name = GumtreeCCUITests;
+			productName = GumtreeCCUITests;
+			productReference = A545F52423822D39008FC43E /* GumtreeCCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A545F4FD23822D38008FC43E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Jing LUO";
+				TargetAttributes = {
+					A545F50423822D38008FC43E = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					A545F51823822D39008FC43E = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = A545F50423822D38008FC43E;
+					};
+					A545F52323822D39008FC43E = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = A545F50423822D38008FC43E;
+					};
+				};
+			};
+			buildConfigurationList = A545F50023822D38008FC43E /* Build configuration list for PBXProject "GumtreeCC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A545F4FC23822D38008FC43E;
+			productRefGroup = A545F50623822D38008FC43E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A545F50423822D38008FC43E /* GumtreeCC */,
+				A545F51823822D39008FC43E /* GumtreeCCTests */,
+				A545F52323822D39008FC43E /* GumtreeCCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A545F50323822D38008FC43E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A545F51323822D39008FC43E /* LaunchScreen.storyboard in Resources */,
+				A545F51023822D39008FC43E /* Assets.xcassets in Resources */,
+				A545F50E23822D38008FC43E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A545F51723822D39008FC43E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A545F52223822D39008FC43E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A545F50123822D38008FC43E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A545F50B23822D38008FC43E /* ViewController.swift in Sources */,
+				A545F50923822D38008FC43E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A545F51523822D39008FC43E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A545F51E23822D39008FC43E /* GumtreeCCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A545F52023822D39008FC43E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A545F52923822D39008FC43E /* GumtreeCCUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A545F51B23822D39008FC43E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A545F50423822D38008FC43E /* GumtreeCC */;
+			targetProxy = A545F51A23822D39008FC43E /* PBXContainerItemProxy */;
+		};
+		A545F52623822D39008FC43E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A545F50423822D38008FC43E /* GumtreeCC */;
+			targetProxy = A545F52523822D39008FC43E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A545F50C23822D38008FC43E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A545F50D23822D38008FC43E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A545F51123822D39008FC43E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A545F51223822D39008FC43E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A545F52B23822D39008FC43E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A545F52C23822D39008FC43E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A545F52E23822D39008FC43E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B89WJ2HFDN;
+				INFOPLIST_FILE = GumtreeCC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jing-LUO.GumtreeCC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A545F52F23822D39008FC43E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B89WJ2HFDN;
+				INFOPLIST_FILE = GumtreeCC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jing-LUO.GumtreeCC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A545F53123822D39008FC43E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B89WJ2HFDN;
+				INFOPLIST_FILE = GumtreeCCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jing-LUO.GumtreeCCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GumtreeCC.app/GumtreeCC";
+			};
+			name = Debug;
+		};
+		A545F53223822D39008FC43E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B89WJ2HFDN;
+				INFOPLIST_FILE = GumtreeCCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jing-LUO.GumtreeCCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GumtreeCC.app/GumtreeCC";
+			};
+			name = Release;
+		};
+		A545F53423822D39008FC43E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B89WJ2HFDN;
+				INFOPLIST_FILE = GumtreeCCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jing-LUO.GumtreeCCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GumtreeCC;
+			};
+			name = Debug;
+		};
+		A545F53523822D39008FC43E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B89WJ2HFDN;
+				INFOPLIST_FILE = GumtreeCCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jing-LUO.GumtreeCCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GumtreeCC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A545F50023822D38008FC43E /* Build configuration list for PBXProject "GumtreeCC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A545F52B23822D39008FC43E /* Debug */,
+				A545F52C23822D39008FC43E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A545F52D23822D39008FC43E /* Build configuration list for PBXNativeTarget "GumtreeCC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A545F52E23822D39008FC43E /* Debug */,
+				A545F52F23822D39008FC43E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A545F53023822D39008FC43E /* Build configuration list for PBXNativeTarget "GumtreeCCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A545F53123822D39008FC43E /* Debug */,
+				A545F53223822D39008FC43E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A545F53323822D39008FC43E /* Build configuration list for PBXNativeTarget "GumtreeCCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A545F53423822D39008FC43E /* Debug */,
+				A545F53523822D39008FC43E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A545F4FD23822D38008FC43E /* Project object */;
+}
