@@ -12,11 +12,7 @@
 		A5100E3F2383EC20004587AD /* WeatherDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5100E3E2383EC20004587AD /* WeatherDetailView.xib */; };
 		A5100E422383F00B004587AD /* WeatherDetailViewObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5100E412383F00B004587AD /* WeatherDetailViewObject.swift */; };
 		A5100E442383FCCB004587AD /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5100E432383FCCB004587AD /* WeatherViewModel.swift */; };
-		A5100E4E23840202004587AD /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5100E4823840202004587AD /* UIFont+Extension.swift */; };
-		A5100E4F23840202004587AD /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5100E4923840202004587AD /* UIColor+Extension.swift */; };
 		A5100E5023840202004587AD /* String+Customise.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5100E4A23840202004587AD /* String+Customise.swift */; };
-		A5100E5123840202004587AD /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5100E4B23840202004587AD /* Date+Extension.swift */; };
-		A5100E5223840202004587AD /* Decimal+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5100E4C23840202004587AD /* Decimal+Extension.swift */; };
 		A5100E5323840202004587AD /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5100E4D23840202004587AD /* UIViewController+Extension.swift */; };
 		A5100E5623840277004587AD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5100E5523840277004587AD /* Localizable.strings */; };
 		A5100E5823840510004587AD /* SearchDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5100E5723840510004587AD /* SearchDetailTableViewCell.xib */; };
@@ -58,11 +54,7 @@
 		A5100E3E2383EC20004587AD /* WeatherDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherDetailView.xib; sourceTree = "<group>"; };
 		A5100E412383F00B004587AD /* WeatherDetailViewObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailViewObject.swift; sourceTree = "<group>"; };
 		A5100E432383FCCB004587AD /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
-		A5100E4823840202004587AD /* UIFont+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
-		A5100E4923840202004587AD /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		A5100E4A23840202004587AD /* String+Customise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Customise.swift"; sourceTree = "<group>"; };
-		A5100E4B23840202004587AD /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
-		A5100E4C23840202004587AD /* Decimal+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Decimal+Extension.swift"; sourceTree = "<group>"; };
 		A5100E4D23840202004587AD /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		A5100E5523840277004587AD /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		A5100E5723840510004587AD /* SearchDetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchDetailTableViewCell.xib; sourceTree = "<group>"; };
@@ -123,11 +115,7 @@
 		A5100E4723840202004587AD /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				A5100E4823840202004587AD /* UIFont+Extension.swift */,
-				A5100E4923840202004587AD /* UIColor+Extension.swift */,
 				A5100E4A23840202004587AD /* String+Customise.swift */,
-				A5100E4B23840202004587AD /* Date+Extension.swift */,
-				A5100E4C23840202004587AD /* Decimal+Extension.swift */,
 				A5100E4D23840202004587AD /* UIViewController+Extension.swift */,
 			);
 			path = Utilities;
@@ -386,16 +374,12 @@
 				A5100E5023840202004587AD /* String+Customise.swift in Sources */,
 				A5100E5323840202004587AD /* UIViewController+Extension.swift in Sources */,
 				A5100E442383FCCB004587AD /* WeatherViewModel.swift in Sources */,
-				A5100E5123840202004587AD /* Date+Extension.swift in Sources */,
 				A545F50923822D38008FC43E /* AppDelegate.swift in Sources */,
 				A545F5552382BF19008FC43E /* JSONFileLoader.swift in Sources */,
-				A5100E4E23840202004587AD /* UIFont+Extension.swift in Sources */,
 				A5100E5A2384051B004587AD /* SearchDetailTableViewCell.swift in Sources */,
-				A5100E5223840202004587AD /* Decimal+Extension.swift in Sources */,
 				A545F55023829E20008FC43E /* APIManager.swift in Sources */,
 				A5100E3D2383EC0F004587AD /* NibView.swift in Sources */,
 				A545F54E23829E13008FC43E /* APIService.swift in Sources */,
-				A5100E4F23840202004587AD /* UIColor+Extension.swift in Sources */,
 				A545F5532382B02C008FC43E /* Weather.swift in Sources */,
 				A545F54C23829E03008FC43E /* APIConfig.swift in Sources */,
 			);
