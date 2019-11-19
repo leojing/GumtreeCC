@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  Transactions
+
+  Created by Jing LUO on 17/11/19.
+  Copyright © 2019 Jing LUO. All rights reserved.
+*/
+
+
+//Global
+"Button.Ok" = "Ok";
+
+//Nav bar titles
+"Nav.Title.Weather" = "Weather";
+
+// Error Message
+"NoServer" = "Couldn't find server.";
+"NoData" = "Empty data.";
+"ParseFailure" = "Couldn't parse data.";
+"NoUrl" = "Url is nil.";

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WeatherDetailView" customModule="GumtreeCC" customModuleProvider="target">
+            <connections>
+                <outlet property="descriptionLabel" destination="99v-v1-jzD" id="vO8-pe-jkp"/>
+                <outlet property="iconImageView" destination="gFF-SY-KPq" id="DOm-SO-k41"/>
+                <outlet property="nameLabel" destination="51a-Zs-dkF" id="mAN-HD-UW4"/>
+                <outlet property="tempLabel" destination="rVZ-ls-gcE" id="hPB-7b-kEW"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="534" height="261"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="xd0-Zn-f0K">
+                    <rect key="frame" x="0.0" y="0.0" width="534" height="261"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mountain View" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="51a-Zs-dkF">
+                            <rect key="frame" x="0.0" y="0.0" width="534" height="35"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
+                            <color key="textColor" red="0.13725490200000001" green="0.1215686275" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="245" verticalHuggingPriority="251" text="clear sky" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="99v-v1-jzD">
+                            <rect key="frame" x="0.0" y="55" width="534" height="31.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                            <color key="textColor" red="0.0074528302066028118" green="0.83897453546524048" blue="0.98101252317428589" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="251" text="285.01 ºF" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rVZ-ls-gcE">
+                            <rect key="frame" x="0.0" y="106.5" width="534" height="29"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="200" image="FindUsIcon" translatesAutoresizingMaskIntoConstraints="NO" id="gFF-SY-KPq">
+                            <rect key="frame" x="0.0" y="155.5" width="534" height="105.5"/>
+                        </imageView>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="xd0-Zn-f0K" secondAttribute="bottom" id="32Q-x5-tnq"/>
+                <constraint firstAttribute="trailing" secondItem="xd0-Zn-f0K" secondAttribute="trailing" id="Ak8-W5-LLf"/>
+                <constraint firstItem="xd0-Zn-f0K" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="cNa-xL-c6D"/>
+                <constraint firstItem="xd0-Zn-f0K" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="lRW-UU-BPh"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="220" y="-43"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="FindUsIcon" width="16" height="32"/>
+    </resources>
+</document>
