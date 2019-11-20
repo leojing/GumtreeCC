@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Weather View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="WeatherViewController" customModule="GumtreeCC" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KUF-OR-WVw">
+                                <rect key="frame" x="355.5" y="54" width="30" height="30"/>
+                                <state key="normal" title="GPS"/>
+                                <connections>
+                                    <action selector="gpsTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ihP-1T-xAo"/>
+                                </connections>
+                            </button>
+                            <searchBar contentMode="redraw" searchBarStyle="minimal" translatesAutoresizingMaskIntoConstraints="NO" id="tl3-vk-Ep8">
+                                <rect key="frame" x="21" y="94" width="373" height="56"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <tableView hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Z7A-eL-1Kv">
+                                <rect key="frame" x="28.5" y="150" width="357" height="184.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tY2-vg-X9C" customClass="WeatherDetailView" customModule="GumtreeCC" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="354.5" width="414" height="187.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="lT6-4F-SrT" appends="YES" id="I2W-U7-GiJ"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="KUF-OR-WVw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="Eb6-dO-0sf"/>
+                            <constraint firstItem="KUF-OR-WVw" firstAttribute="trailing" secondItem="tl3-vk-Ep8" secondAttribute="trailing" constant="-8" id="IMA-r3-w8W"/>
+                            <constraint firstItem="tY2-vg-X9C" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="MHr-94-npj"/>
+                            <constraint firstItem="Z7A-eL-1Kv" firstAttribute="trailing" secondItem="tl3-vk-Ep8" secondAttribute="trailing" constant="-8" id="Z6s-or-k3N"/>
+                            <constraint firstItem="tY2-vg-X9C" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="aHY-7x-ttE"/>
+                            <constraint firstItem="Z7A-eL-1Kv" firstAttribute="top" secondItem="tl3-vk-Ep8" secondAttribute="bottom" id="hKu-yD-gjp"/>
+                            <constraint firstItem="tl3-vk-Ep8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ijP-zp-s2g"/>
+                            <constraint firstItem="Z7A-eL-1Kv" firstAttribute="leading" secondItem="tl3-vk-Ep8" secondAttribute="leading" constant="8" id="ikM-1j-SV5"/>
+                            <constraint firstItem="tY2-vg-X9C" firstAttribute="top" secondItem="Z7A-eL-1Kv" secondAttribute="bottom" constant="20" id="njx-7V-pXp"/>
+                            <constraint firstItem="tl3-vk-Ep8" firstAttribute="top" secondItem="KUF-OR-WVw" secondAttribute="bottom" constant="10" id="sip-M6-k8W"/>
+                            <constraint firstItem="KUF-OR-WVw" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" symbolic="YES" id="vnR-PI-l0r"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tY2-vg-X9C" secondAttribute="trailing" id="yva-Bs-Ltp"/>
+                            <constraint firstItem="tl3-vk-Ep8" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.9" id="zzc-LH-8N4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="searchBar" destination="tl3-vk-Ep8" id="HNd-bQ-pgD"/>
+                        <outlet property="tableView" destination="Z7A-eL-1Kv" id="2Ws-mP-VxB"/>
+                        <outlet property="weatherDetailView" destination="tY2-vg-X9C" id="j3U-Kd-B6d"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="lT6-4F-SrT">
+                    <connections>
+                        <action selector="tapToHidden:" destination="BYZ-38-t0r" id="qrE-mm-E2a"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="47.826086956521742" y="20.758928571428569"/>
+        </scene>
+    </scenes>
+</document>
