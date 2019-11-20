@@ -67,6 +67,7 @@ class WeatherViewController: UIViewController {
     }
 }
 
+// MARK: - Conform to UITableViewDataSource
 extension WeatherViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return viewModel.numberOfRows()
@@ -87,6 +88,7 @@ extension WeatherViewController: UITableViewDataSource {
     }
 }
 
+// MARK: - Conform to UITableViewDelegate
 extension WeatherViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
@@ -101,6 +103,7 @@ extension WeatherViewController: UITableViewDelegate {
     }
 }
 
+// MARK: - Conform to UISearchBarDelegate
 extension WeatherViewController: UISearchBarDelegate {
 
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {

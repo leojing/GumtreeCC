@@ -17,12 +17,29 @@
 		A5100E5623840277004587AD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5100E5523840277004587AD /* Localizable.strings */; };
 		A5100E5823840510004587AD /* SearchDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5100E5723840510004587AD /* SearchDetailTableViewCell.xib */; };
 		A5100E5A2384051B004587AD /* SearchDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5100E592384051B004587AD /* SearchDetailTableViewCell.swift */; };
+		A5100E6D2384BFC1004587AD /* MockAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5100E672384BFC1004587AD /* MockAPIManager.swift */; };
+		A5100E722384C14E004587AD /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A545F54D23829E13008FC43E /* APIService.swift */; };
+		A5100E732384C151004587AD /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A545F54B23829E03008FC43E /* APIConfig.swift */; };
+		A5100E742384C153004587AD /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A545F54F23829E20008FC43E /* APIManager.swift */; };
+		A5100E752384C156004587AD /* JSONFileLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A545F5542382BF19008FC43E /* JSONFileLoader.swift */; };
+		A5100E762384C158004587AD /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = A545F5522382B02C008FC43E /* Weather.swift */; };
+		A5100E772384C15C004587AD /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5100E432383FCCB004587AD /* WeatherViewModel.swift */; };
+		A5100E782384C167004587AD /* WeatherDetailViewObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5100E412383F00B004587AD /* WeatherDetailViewObject.swift */; };
+		A5100E792384C16F004587AD /* String+Customise.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5100E4A23840202004587AD /* String+Customise.swift */; };
+		A5100E7B2384C1CA004587AD /* MockEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5100E7A2384C1CA004587AD /* MockEndPoint.swift */; };
+		A5100E822384C5C7004587AD /* correctData.json in Resources */ = {isa = PBXBuildFile; fileRef = A5100E662384BFC1004587AD /* correctData.json */; };
+		A5100E832384C5C7004587AD /* missingWeatherDetailData.json in Resources */ = {isa = PBXBuildFile; fileRef = A5100E702384C109004587AD /* missingWeatherDetailData.json */; };
+		A5100E842384C5C7004587AD /* wrongFormatData.json in Resources */ = {isa = PBXBuildFile; fileRef = A5100E692384BFC1004587AD /* wrongFormatData.json */; };
+		A5100E852384C66D004587AD /* correctData.json in Resources */ = {isa = PBXBuildFile; fileRef = A5100E662384BFC1004587AD /* correctData.json */; };
+		A5100E862384C670004587AD /* missingWeatherDetailData.json in Resources */ = {isa = PBXBuildFile; fileRef = A5100E702384C109004587AD /* missingWeatherDetailData.json */; };
+		A5100E872384C672004587AD /* wrongFormatData.json in Resources */ = {isa = PBXBuildFile; fileRef = A5100E692384BFC1004587AD /* wrongFormatData.json */; };
+		A5100E892384C986004587AD /* WeatherViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5100E882384C986004587AD /* WeatherViewModelTests.swift */; };
 		A545F50923822D38008FC43E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A545F50823822D38008FC43E /* AppDelegate.swift */; };
 		A545F50B23822D38008FC43E /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A545F50A23822D38008FC43E /* WeatherViewController.swift */; };
 		A545F50E23822D38008FC43E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A545F50C23822D38008FC43E /* Main.storyboard */; };
 		A545F51023822D39008FC43E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A545F50F23822D39008FC43E /* Assets.xcassets */; };
 		A545F51323822D39008FC43E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A545F51123822D39008FC43E /* LaunchScreen.storyboard */; };
-		A545F51E23822D39008FC43E /* GumtreeCCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A545F51D23822D39008FC43E /* GumtreeCCTests.swift */; };
+		A545F51E23822D39008FC43E /* GumtreeCCAPICallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A545F51D23822D39008FC43E /* GumtreeCCAPICallTests.swift */; };
 		A545F52923822D39008FC43E /* GumtreeCCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A545F52823822D39008FC43E /* GumtreeCCUITests.swift */; };
 		A545F54C23829E03008FC43E /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A545F54B23829E03008FC43E /* APIConfig.swift */; };
 		A545F54E23829E13008FC43E /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A545F54D23829E13008FC43E /* APIService.swift */; };
@@ -59,6 +76,12 @@
 		A5100E5523840277004587AD /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		A5100E5723840510004587AD /* SearchDetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchDetailTableViewCell.xib; sourceTree = "<group>"; };
 		A5100E592384051B004587AD /* SearchDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDetailTableViewCell.swift; sourceTree = "<group>"; };
+		A5100E662384BFC1004587AD /* correctData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = correctData.json; sourceTree = "<group>"; };
+		A5100E672384BFC1004587AD /* MockAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockAPIManager.swift; sourceTree = "<group>"; };
+		A5100E692384BFC1004587AD /* wrongFormatData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = wrongFormatData.json; sourceTree = "<group>"; };
+		A5100E702384C109004587AD /* missingWeatherDetailData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missingWeatherDetailData.json; sourceTree = "<group>"; };
+		A5100E7A2384C1CA004587AD /* MockEndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockEndPoint.swift; sourceTree = "<group>"; };
+		A5100E882384C986004587AD /* WeatherViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModelTests.swift; sourceTree = "<group>"; };
 		A545F50523822D38008FC43E /* GumtreeCC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GumtreeCC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A545F50823822D38008FC43E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A545F50A23822D38008FC43E /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
@@ -67,7 +90,7 @@
 		A545F51223822D39008FC43E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A545F51423822D39008FC43E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A545F51923822D39008FC43E /* GumtreeCCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GumtreeCCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A545F51D23822D39008FC43E /* GumtreeCCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GumtreeCCTests.swift; sourceTree = "<group>"; };
+		A545F51D23822D39008FC43E /* GumtreeCCAPICallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GumtreeCCAPICallTests.swift; sourceTree = "<group>"; };
 		A545F51F23822D39008FC43E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A545F52423822D39008FC43E /* GumtreeCCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GumtreeCCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A545F52823822D39008FC43E /* GumtreeCCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GumtreeCCUITests.swift; sourceTree = "<group>"; };
@@ -129,6 +152,18 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
+		A5100E632384BF95004587AD /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				A5100E662384BFC1004587AD /* correctData.json */,
+				A5100E702384C109004587AD /* missingWeatherDetailData.json */,
+				A5100E692384BFC1004587AD /* wrongFormatData.json */,
+				A5100E672384BFC1004587AD /* MockAPIManager.swift */,
+				A5100E7A2384C1CA004587AD /* MockEndPoint.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
 		A545F4FC23822D38008FC43E = {
 			isa = PBXGroup;
 			children = (
@@ -171,7 +206,9 @@
 		A545F51C23822D39008FC43E /* GumtreeCCTests */ = {
 			isa = PBXGroup;
 			children = (
-				A545F51D23822D39008FC43E /* GumtreeCCTests.swift */,
+				A5100E632384BF95004587AD /* Mock */,
+				A545F51D23822D39008FC43E /* GumtreeCCAPICallTests.swift */,
+				A5100E882384C986004587AD /* WeatherViewModelTests.swift */,
 				A545F51F23822D39008FC43E /* Info.plist */,
 			);
 			path = GumtreeCCTests;
@@ -339,10 +376,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5100E5623840277004587AD /* Localizable.strings in Resources */,
+				A5100E852384C66D004587AD /* correctData.json in Resources */,
 				A5100E3F2383EC20004587AD /* WeatherDetailView.xib in Resources */,
 				A545F51323822D39008FC43E /* LaunchScreen.storyboard in Resources */,
+				A5100E862384C670004587AD /* missingWeatherDetailData.json in Resources */,
 				A545F51023822D39008FC43E /* Assets.xcassets in Resources */,
 				A5100E5823840510004587AD /* SearchDetailTableViewCell.xib in Resources */,
+				A5100E872384C672004587AD /* wrongFormatData.json in Resources */,
 				A545F50E23822D38008FC43E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,6 +391,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5100E822384C5C7004587AD /* correctData.json in Resources */,
+				A5100E832384C5C7004587AD /* missingWeatherDetailData.json in Resources */,
+				A5100E842384C5C7004587AD /* wrongFormatData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,7 +432,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A545F51E23822D39008FC43E /* GumtreeCCTests.swift in Sources */,
+				A5100E762384C158004587AD /* Weather.swift in Sources */,
+				A5100E782384C167004587AD /* WeatherDetailViewObject.swift in Sources */,
+				A5100E7B2384C1CA004587AD /* MockEndPoint.swift in Sources */,
+				A5100E772384C15C004587AD /* WeatherViewModel.swift in Sources */,
+				A5100E742384C153004587AD /* APIManager.swift in Sources */,
+				A5100E892384C986004587AD /* WeatherViewModelTests.swift in Sources */,
+				A5100E752384C156004587AD /* JSONFileLoader.swift in Sources */,
+				A545F51E23822D39008FC43E /* GumtreeCCAPICallTests.swift in Sources */,
+				A5100E792384C16F004587AD /* String+Customise.swift in Sources */,
+				A5100E722384C14E004587AD /* APIService.swift in Sources */,
+				A5100E6D2384BFC1004587AD /* MockAPIManager.swift in Sources */,
+				A5100E732384C151004587AD /* APIConfig.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

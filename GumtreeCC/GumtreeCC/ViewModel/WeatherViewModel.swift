@@ -16,10 +16,12 @@ class WeatherViewModel {
     private var searchHistory = [String]()
     private var locManager = CLLocationManager()
     private var currentLocation: CLLocation!
+
     init(_ apiService: APIService) {
         self.apiService = apiService
     }
 
+    // MARK: Query remote data methods
     func queryWeatherDetailByGPS() {
         locManager.requestWhenInUseAuthorization()
         if (CLLocationManager.authorizationStatus() == CLAuthorizationStatus.authorizedWhenInUse ||
@@ -62,6 +64,7 @@ class WeatherViewModel {
     }
 }
 
+// MARK: - Mapping Data model Weather to UI element model WeatherDetailViewObject
 extension WeatherViewModel {
     func getWeatherDetailViewObject(_ weather: Weather) -> WeatherDetailViewObject {
         var viewObject = WeatherDetailViewObject()
@@ -73,6 +76,7 @@ extension WeatherViewModel {
     }
 }
 
+// MARK: - UITableView Datasource
 extension WeatherViewModel {
     func numberOfRows() -> Int {
         return searchHistory.count
