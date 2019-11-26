@@ -39,7 +39,7 @@ class WeatherViewModelTests: XCTestCase {
                 return
             }
             XCTAssertEqual(weatherDetail.nameText, "Shuzenji")
-            XCTAssertEqual(weatherDetail.tempText, "289.92 ºF")
+            XCTAssertEqual(weatherDetail.tempText, "62.0 ºF")
             XCTAssertEqual(weatherDetail.descriptionText, "clear sky")
             expectation.fulfill()
         }

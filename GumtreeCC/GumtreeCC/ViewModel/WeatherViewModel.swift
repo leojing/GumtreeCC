@@ -70,7 +70,8 @@ extension WeatherViewModel {
         var viewObject = WeatherDetailViewObject()
         viewObject.nameText = weather.name
         viewObject.descriptionText = weather.weatherDetails.first?.description ?? "No description"
-        viewObject.tempText = "\(weather.temp) ºF"
+        let tempInFahrenheit = Double(((weather.temp - 273.15) * 9/5) + 32).rounded()
+        viewObject.tempText = "\(tempInFahrenheit) ºF"
         viewObject.iconImage = URL(string: "http://openweathermap.org/img/w/\(weather.weatherDetails.first?.icon ?? "").png")
         return viewObject
     }
